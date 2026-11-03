@@ -1,0 +1,13 @@
+import { Bricolage_Grotesque, Plus_Jakarta_Sans } from "next/font/google";
+
+export const fontSans = Plus_Jakarta_Sans({
+  subsets: ["latin"],
+  variable: "--font-jakarta",
+  display: "swap",
+});
+
+export const fontHeading = Bricolage_Grotesque({
+  subsets: ["latin"],
+  variable: "--font-bricolage",
+  display: "swap",
+});
